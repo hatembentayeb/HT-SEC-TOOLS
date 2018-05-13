@@ -30,7 +30,8 @@ echo -e $(tput bold )"\n:: Choose what you want to install  ::\n""$NC"
 sleep 1
 while
 
-echo -e "\n\n1) Phantom-Evasion    2) Shelter    3) Hercules    4) Winpayload    5) Fix Kali    6) QUIT\n" | boxes -d stone  -p h8 -i box -s $(tput cols)
+echo -e "\n\n1) Phantom-Evasion    2) Shelter    3) Hercules    4) Winpayload    5) Fix Kali    6) QUIT\n" 
+#|boxes -d stone  -p h8 -i box -s $(tput cols) 
 #echo -e $(tput setaf 3) "\n\n1) phantom evasion "
 #echo -e "2) shelter "
 #echo -e "3) quit \n"
